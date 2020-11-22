@@ -52,6 +52,8 @@ var myImage = document.querySelector('img');
 var myButton = document.getElementById('nameButton');
 var myHeading = document.querySelector('h1');
 
+
+
 function setUserName() {
   var myName = prompt('네 이름을 알려줘!');
   localStorage.setItem('name', myName);
