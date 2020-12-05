@@ -19,7 +19,7 @@ html {
 
 body {
   width: 1000px;
-  height: 1505px;
+  height: 1400px;
   margin: 50px auto; /* 첫번째 값은 요소의 상단과 하단 // auto 는 가능한 수평공간의 왼쪽과 오른쪽을 같게 나눠주는 특별한 값입니다*/
   background-color: #F4EDA4;
   padding: 0 20px 20px 20px; /*상 우 하 좌*/
@@ -144,52 +144,58 @@ img {
   height:100px;
   padding: 20px 0 20px 0;
   font-size: 20px;
+    background: #ed9d72;
   font-weight: bold;
+}
+
+#total_menu_map{
+  width:100%;
+  height:500px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  background: #FFFFFF;
 }
 
 #total_menu_mid{
   width:100%;
-  height:515px;
+  height:400px;
   padding:0 0 0 0;
 }
 
 #side_left{
   width: 50%;
-  height: 500px;
+  height: 370px;
   float: left;
+  padding-top: 20px;
   font-size: 16px;
 }
 
-#side_mid{
-  width: 25%;
-  height: 500px;
-  float: left;
-  background-color: #bad98f;
-}
-
 #side_right{
-  width: 25%;
-  height: 500px;
+  width: 50%;
+  height: 370px;
   float: left;
+  padding-top: 20px;
   background-color: #bad98f;
 }
 
 #side_right_box_top{
   width: 100%;
-  height: 45%;
+  height: 50%;
 }
 
 #side_right_box_bottom{
   width: 100%;
-  height: 45%;
+  height: 50%;
   margin-top: 10px;
+  padding-top: 40px;
 }
 
 #total_menu_bottom{
   width:100%;
   height:400px;
-  padding-bottom: 20px;
   background: #FFFFFF;
+  margin-top: 100px;
+  padding-top: 15px;
 }
 
 table.type06 {

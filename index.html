@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>My test page</title>
+    <title>Free Food for You</title>
     <meta name = "description" content="Practice page while learning web" >
     <link href="styles/style.css" rel="stylesheet" type="text/css">
     <!--CSS 연결-->
@@ -13,7 +13,8 @@
   <body>
     <main>
     <header>
-      <h1>My main title</h1>
+      <br/>
+      <h1>Title</h1>
     </header>
 
     <button id="nameButton" style="font-size:16px;">내 이름 바꾸기</button>
@@ -55,51 +56,36 @@
       </div>
     </div>
 
-    <div id=total_menu_top>내 주변 지도도 보고 식당을 검색할 수 있어!
-      <div style="float:right;">
-        <form action="/action_page.php">
-          <label for="fname" style="font-size:12px;">식당 찾기</label>
-          <input type="text" id="fname" name="fname"><br>
-          <input type="submit" value="검색" style="float:right;">
-        </form>
-      </div>
-      <p style="font-size:13px; float: left;"> 지도의 식당은 모두 어린이를 위한 무료 식사를 제공한다고 해. 방문 전 전화를 꼭 해봐야 해!</p>
+    <div id=total_menu_top style="float:left;">전국의 지도에서 식당을 확인할 수 있어!<br>
+      <p style="font-size:13px; float: left;"> 지도의 식당은 모두 무료 식사를 제공한다고 해. 방문 전 전화를 꼭 해봐야 해!</p>
     </div>
 
     <div id=total_menu_mid>
       <div id = "side_left">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.5738059929813!2d127.04882485116302!3d37.51796897970782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca36dfd50f1b9%3A0xfc1a21ccfe4444e4!2zU03sl5TthLDthYzsnbjrqLztirg!5e0!3m2!1sko!2sus!4v1584886099145!5m2!1sko!2sus"
-              width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <div id = "side_right_box_top">
+          <a id="parce1" href="pages\output.txt"><img src="images\parce1.png"/></a></br>
+          <a id="parce2" href="http://www.1004n.co.kr/content/01intro/09_01.php"><img src="images\parce2.png"/></a>
+        </div>
+        <div id = "side_right_box_bottom">
+          <a id="map1" href="pages\markedmap.html"><img src="images\map1.png"/></a>
+        </div>
       </div>
-      <div id = "side_mid">
-      
-      </div>
+
       <div id = "side_right">
           <div id = "side_right_box_top">
-            <form action="/action_page.php" style="padding-left:20px; font-size:16px;">
-              <br>
-              <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-              <label for="vehicle1"> 아동 복지관</label><br>
-              <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-              <label for="vehicle2"> 꿈나무카드 사용처</label><br><br>
-              <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-              <label for="vehicle3"> 전체 선택</label><br><br>
-              <input type="submit" value="검색"> <br><br>
-
-              <a href="output.txt">무료 급식소 파싱 결과 보기</button><br>
-              <a href="http://www.1004n.co.kr/content/01intro/09_36.php"> -> 상세 주소 보기</a>
-            </form>
+            <a id="parce3" href="pages\parce.html"><img src="images\parce3.png"/></a>
           </div>
           <div id = "side_right_box_bottom">
-            <figure>
-               <img src="images/ad.jpg" alt="Pengsoo Ad" style="width:100%" title="Pengsoo at the market">
-               <figcaption style="float:right">공익광고</figcaption>
-            </figure>
+            <a id="map2" href="pages\map_result.html"><img src="images\map2.png"/></a>
           </div>
       </div>
     </div>
 
-    <div id=total_menu_bottom>로드뷰-제작 중
+    <div id=total_menu_bottom>
+      <figure>
+         <img src="images/ad.jpg" alt="Pengsoo Ad" style="width:40%" title="Pengsoo at the market">
+         <figcaption style="float:right">공익광고</figcaption>
+      </figure>
     </div>
 
    </main>
